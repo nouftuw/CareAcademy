@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Nunito', 'sans-serif';
+}
+
+:root {
+	--primaryColor: #0076de;
+	--whiteColor: #fff;
+	--blckColor: #333;
+	--greyColor: #f6f8fa;
+	--labelColor: #64b1f5;
+	--yellowColor: #ffd723;
+}
+
+input {
+	background-color: #ffffff;
+	border-color: #0076de;
+	padding: 12px 15px;
+	margin: 2px 0;
+	width: 100%;
+}
+
+textarea {
+	background-color: #ffffff;
+	border:inset  #0076de;
+	padding: 12px 15px;
+	width: 100%;
+	border-width:2px;
+}
+
+.parentFeedB {
+	/*textarea for tutor rating */
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 1em;
+	border-radius: 5px;
+	outline: none;
+	border: transparent;
+	font-weight: 200;
+	line-height: 1.4;
+	width: 90%;
+	height: 150px;
+}
+
+
+/*buttons to submit rating*/
+.submitFeedB {
+	background-color: transparent;
+	color: var(--primaryColor);
+	padding: 0.3rem 2rem;
+	border: 1px solid var(--primaryColor);
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 20px auto;
+	width: 150px;
+	height: 30px;
+}
+
+.submitFeedB:hover {
+	background-color: var(--primaryColor);
+	color: var(--whiteColor);
+}

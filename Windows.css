@@ -1,0 +1,182 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+:root {
+    --primaryColor: #0076de;
+    --whiteColor: #fff;
+    --blckColor: #333;
+    --greyColor: #f6f8fa;
+    --labelColor: #64b1f5;
+    --yellowColor: #ffd723;
+}
+
+
+form {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 50px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+}
+
+
+
+
+
+/*this section is for the post request and Edit request buttons in the parent page*/
+
+
+.PostRequest {
+    margin-top: -650px;
+    margin-left: 500px;
+    border-radius: 30px;
+    position: relative;
+    max-width: 100%;
+   display:none;
+    width: 350px;
+}
+
+   
+    .EditRequest
+    {
+    margin-top: -700px;
+    margin-left: 550px;
+    border-radius: 30px;
+    position: relative;
+    max-width: 100%;
+    display: none;
+    width: 350px;
+}
+
+.job-request-container label
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.job-request-container h5
+{
+    font-size: 18px;
+}
+
+
+/*end of post request and edit request POPups*/
+
+
+/*Send offer window*/
+.offer {
+    display:none;
+    border-radius: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    margin-left: 90px;
+    align-content: center;
+}
+
+    .offer h2
+    {
+        color: var(--primaryColor);
+        text-align: center;
+    }
+
+.offer2 {
+    display:none;
+    border-radius: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    margin-left: 90px;
+    align-content: center;
+}
+
+    .offer2 h2 {
+        color: var(--primaryColor);
+        text-align: center;
+    }
+
+.offer3 {
+    display: none;
+    border-radius: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    margin-left: 90px;
+    align-content: center;
+}
+
+    .offer3 h2 {
+        color: var(--primaryColor);
+        text-align: center;
+    }
+
+.offer4 {
+    display: none;
+    border-radius: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    margin-left: 90px;
+    align-content: center;
+}
+
+    .offer4 h2 {
+        color: var(--primaryColor);
+        text-align: center;
+    }
+
+    /*end of send offer button in tutor page*/
+
+
+    /*Cancel request popup in parent page*/
+.CancelRequest {
+    display: none;
+    position: relative;
+    width: 365px;
+    height: 145px;
+    transition: 0.5s;
+    margin-top: -320px;
+    margin-left: 530px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    background-color:var(--greyColor);
+    border-radius: 20px;
+    align-items:center;
+}
+
+.DeleteAccount {
+    display: none;
+    position: relative;
+    width: 365px;
+    height: 145px;
+    transition: 0.5s;
+    margin-top: -300px;
+    margin-left: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+    background-color:var(--greyColor);
+    border-radius: 20px;
+    align-items:center;
+    z-index: 150;
+
+}
+
+    .CancelRequest h4
+    {
+        text-align:center;
+        margin-bottom:20px;
+    }
+
+#buttons-in-cancelreq
+{
+   margin-left:75px;
+}
+
+/*end of Cancel request popup in parent page*/
+
+
+    
+
+

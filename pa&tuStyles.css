@@ -1,0 +1,433 @@
+/*------------lists------------*/
+/*----Tutor page: current job----*/
+.rev-section {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: inline-block;
+  /*edit*/
+  flex-wrap: wrap;
+  padding: 9rem;
+  /*add*/
+  width: 88%;
+}
+
+.review {
+  margin: 1rem 1rem;
+  /*edit*/
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+
+.kid-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.body-review {
+  background-color: #fff;
+  /*edit*/
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+  /*edit*/
+  border-radius: 40px;
+  /*add*/
+}
+
+
+.body-review:hover {
+  /*add*/
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 30px;
+}
+
+.order-num {
+  font-size: 1.7rem;
+  color: #0076de;
+  margin-bottom: .25rem;
+  font-weight: bolder;
+
+}
+
+.order-date {
+  font-style: italic;
+}
+
+.order-date,
+.order-time,
+.kid-name,
+.subject,
+.kid-grade {
+  font-size: 1rem;
+  font-weight: 850;
+
+}
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+
+/*----End----*/
+
+/*----Tutor page: previous jobs----*/
+.rev-section {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: inline-block;
+  /*edit*/
+  flex-wrap: wrap;
+  padding: 9rem;
+  /*add*/
+  width: 88%;
+  /*or remove it so it depend on content*/
+}
+
+.review {
+  margin: 1rem 1rem;
+  /*edit*/
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+
+
+.body-review {
+  background-color: #fff;
+  /*edit*/
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+  /*edit*/
+  border-radius: 40px;
+  /*add*/
+}
+
+
+.body-review:hover {
+  /*add*/
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 30px;
+}
+
+.order-num {
+  font-size: 1.5rem;
+  color: #0076de;
+  margin-bottom: .25rem;
+  font-weight: bolder;
+}
+
+.order-date {
+  font-style: italic;
+}
+
+.order-status,
+.order-date {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.order-status {
+  color: darkgreen;
+}
+
+.feedback {
+  font-weight: 700;
+  color: rgb(150, 150, 150);
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.rating {
+  color: rgb(253, 180, 42);
+  margin: 0.2rem 0;
+  font-size: 20px;
+}
+
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+
+/*----END----*/
+
+
+/*----Parent page: current booking----*/
+.rev-section {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: inline-block;
+  /*edit*/
+  flex-wrap: wrap;
+  padding: 9rem;
+  /*add*/
+  width: 88%;
+}
+
+.review {
+  margin: 1rem 1rem;
+  /*edit*/
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+
+.kid-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.body-review {
+  background-color: #fff;
+  /*edit*/
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+  /*edit*/
+  border-radius: 40px;
+  /*add*/
+}
+
+
+.body-review:hover {
+  /*add*/
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 30px;
+}
+
+.req-num {
+  font-size: 1.7rem;
+  color: #0076de;
+  margin-bottom: .25rem;
+  font-weight: bolder;
+
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.order-date {
+  font-style: italic;
+}
+
+.req-status {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+#accepted{
+  color: green;
+}
+
+#rejected{
+  color: red;
+}
+
+#pending{
+  color: gray;
+}
+
+.order-date,
+.order-time,
+.kid-name,
+.subject,
+.kid-grade,
+.tutor-name,
+.price {
+  font-size: 1rem;
+  font-weight: 850;
+
+}
+
+
+#highlighted{
+  color:#0076de;
+}
+
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+
+/*----End----*/
+
+
+/*anoud*/
+/*this section is for the post request button*/
+input[type="radio"] {
+  /*might delete it*/
+  float: left;
+  clear: none;
+  margin: 4px 0 15px;
+  width: auto;
+}
+
+.job-request-container {
+  width: 400px;
+  z-index: 2;
+}
+
+.job-request-container label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Jobcontainer.close {
+  width: 20px;
+  top: -15px;
+  right: -15px;
+  border-radius: 50%;
+}
+
+
+.job-request-container h5 {
+  font-size: 18px;
+}
+
+.job-request-container label1 {
+  padding: 0px 1em 0px 8px;
+  display: block;
+  float: left;
+  clear: none;
+}
+
+form {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 50px;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 6px;
+}
+
+.Jobcontainer {
+  border-radius: 30px;
+  position: relative;
+  max-width: 100%;
+  margin-top: -550px;
+  margin-left: 400px;
+  height: 900px;
+  width: 900px;
+  display: none;
+  z-index: 2
+}
+
+.job-request-container h2 {
+  margin-bottom: 20px;
+}
+
+.close {
+  position: absolute;
+  top: -6px;
+  right: 545px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+#ParentButton {
+  position: relative;
+  margin-left: 125px;
+  bottom: -350px;
+}
+
+/*end of post request button*/
+
+/*----Tutor page: previous jobs----*/
+.feedback-tutor {
+  font-weight: 700;
+  color: rgb(150, 150, 150);
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.jobs-stars {
+  color: rgb(253, 180, 42);
+  margin: 0.2rem 0;
+  font-size: 20px;
+}
+
+/*----END----*/
+
+/*----Parent page: previous Bookings----*/
+.checked {
+  color: rgb(253, 180, 42);
+}
+
+.unchecked {
+  color: grey;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+/*----END----*/
+
+/*----Parent page: Current Bookings----*/
+.tutor-mail {
+  color: black;
+  text-decoration: none;
+}
+
+#Done{
+  color: green;
+}
+
+#cancelled{
+  color: red;
+}
+/*----END----*/
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+

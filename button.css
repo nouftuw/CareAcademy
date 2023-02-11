@@ -1,0 +1,184 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+:root {
+    --primaryColor: #0076de;
+    --whiteColor: #fff;
+    --blckColor: #333;
+    --greyColor: #f6f8fa;
+    --labelColor: #64b1f5;
+    --yellowColor: #ffd723;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+/*button*/
+button {
+    background-color: transparent;
+    color: var(--primaryColor);
+    padding: 0.3rem 2rem;
+    border: 1px solid var(--primaryColor);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 250px;
+}
+
+
+button:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+
+/*Current booking buttons*/
+.btn-container {
+    margin: 0 30px;
+}
+
+.E-btn {
+    width: 100%;
+    padding-right: 30px;
+    display: block;
+
+}
+
+.D-btn {
+    width: 100%;
+    padding-right: 30px;
+    display: block;
+}
+
+.D-btn:hover {
+    background-color: red !important;
+}
+
+#PostRequestBtn {
+    margin-top: 380px;
+    margin-left: 100px;
+}
+
+    .send-offer {
+    width: 150px;
+}
+
+.rate {
+    width: 200px;
+
+}
+
+.req-more {
+    margin: 20px 60px;
+
+}
+
+.offer {
+    margin: 20px 60px;
+}
+
+.cancel-btn {
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+}
+.cancel-btn2 {
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+}
+
+cancel:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+.d-btn,
+.e-btn {
+    width: 120px;
+}
+
+.post-request {
+    width: 180px;
+}
+
+.e-btn:hover {
+    background-color: var(--primaryColor) !important;
+
+}
+
+.d-btn:hover {
+    background-color: red !important;
+}
+
+.a-btn:hover{
+    background-color: green;
+  }
+  
+  .r-btn:hover{
+    background-color: red !important;
+  }
+
+  .back{
+    background-color: transparent;
+    color: var(--primaryColor);
+    padding: 0.3rem 2rem;
+    border: 1px solid var(--primaryColor);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0;
+    width: 250px;
+    text-align: center;
+  }
+
+  .back:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+/*buttons to submit rating*/
+.submitFeedB {
+    background-color: transparent;
+    color: var(--primaryColor);
+    padding: 0.3rem 2rem;
+    border: 1px solid var(--primaryColor);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 150px;
+    height: 30px;
+  }
+  
+  .submitFeedB:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+  }
+
+  .cancel-btn:hover{
+    background-color: red !important;
+  }
+
+/*buttons to submit rating*/
+.submitFeedB {
+	background-color: transparent;
+	color: var(--primaryColor);
+	padding: 0.3rem 2rem;
+	border: 1px solid var(--primaryColor);
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 20px auto;
+	width: 150px;
+	height: 30px;
+}
+
+.submitFeedB:hover {
+	background-color: var(--primaryColor);
+	color: var(--whiteColor);
+}
